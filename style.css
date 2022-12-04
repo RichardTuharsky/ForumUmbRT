@@ -1,0 +1,41 @@
+.rectangle {
+  height: 500px;
+  width: 900px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 5px #80ad60;
+  margin: auto;
+  margin-top: 150px;
+  border: 3px solid #73AD21;
+  
+}
+
+.message {
+    position: fixed;
+    bottom: 340px;
+    right: 898px;
+
+}
+
+.user {
+    position: fixed;
+    bottom: 340px;
+    right: 1225px;
+}
+
+.button {
+    position: fixed;
+    bottom: 340px;
+    right: 830px;
+}
+
+.sort {
+    position: fixed;
+    bottom: 800px;
+    right: 520px;
+}
+
+.usporiadanie {
+    position: fixed;
+    bottom: 801px;
+    right: 612px;
+}
