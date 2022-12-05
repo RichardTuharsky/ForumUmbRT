@@ -1,41 +1,52 @@
-.rectangle {
-  height: 500px;
-  width: 900px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 10px 5px #80ad60;
-  margin: auto;
-  margin-top: 150px;
-  border: 3px solid #73AD21;
-  
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(133, 151, 133);
+}
+#container {
+    width: 800px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: 10px 5px 5px rgb(56, 49, 49);}
+h1 {
+    margin: 0;
+    padding: 0;
 }
 
 .message {
-    position: fixed;
-    bottom: 340px;
-    right: 898px;
+    position: relative;
+    top: 455px;
+    left: 210px;
 
 }
 
 .user {
-    position: fixed;
-    bottom: 340px;
-    right: 1225px;
+    position: relative;
+    top: 416px;
+    left: 10px;
 }
 
 .button {
-    position: fixed;
-    bottom: 340px;
-    right: 830px;
+    position: relative;
+    top: 394px;
+    left: 550px;
 }
 
 .sort {
-    position: fixed;
-    bottom: 800px;
-    right: 520px;
+    position: relative;
+    left: 615px;
+    bottom: 90px;
 }
 
 .usporiadanie {
-    position: fixed;
-    bottom: 801px;
-    right: 612px;
+    position: relative;
+    left: 610px;
+    bottom: 90px;
+    
 }
